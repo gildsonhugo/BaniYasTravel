@@ -22,6 +22,7 @@ class DbSeeder extends Seeder
             "image_path" => "saadiyat-public-beach.jpg"
         ]);
         Vertice::create([
+            "id" => "2",
             "name" => "Manarat Al Saadiyat",
             "x" => "517",
             "y" => "212",
@@ -29,6 +30,7 @@ class DbSeeder extends Seeder
             "image_path" => "manarat-al-saadiyat.jpg"
         ]);
         Vertice::create([
+            "id" => "3",
             "name" => "Ferrari World",
             "x" => "1103",
             "y" => "378",
@@ -36,6 +38,7 @@ class DbSeeder extends Seeder
             "image_path" => "ferrari-world.jpg"
         ]);
         Vertice::create([
+            "id" => "4",
             "name" => "Etihad Plaza",
             "x" => "1106",
             "y" => "509",
@@ -43,6 +46,7 @@ class DbSeeder extends Seeder
             "image_path" => "etihad-plaza.jpg"
         ]);
         Vertice::create([
+            "id" => "5",
             "name" => "Abu Dhabi International Airport",
             "x" => "1236",
             "y" => "513",
@@ -50,6 +54,7 @@ class DbSeeder extends Seeder
             "image_path" => "abu-dhabi-international-airport.jpg"
         ]);
         Vertice::create([
+            "id" => "6",
             "name" => "Zayed University",
             "x" => "1031",
             "y" => "671",
@@ -57,6 +62,7 @@ class DbSeeder extends Seeder
             "image_path" => "zayed-university.jpg"
         ]);
         Vertice::create([
+            "id" => "7",
             "name" => "Sheikh Zayed Grand Mosque",
             "x" => "692",
             "y" => "609",
@@ -64,6 +70,7 @@ class DbSeeder extends Seeder
             "image_path" => "sheikh-zayed-grand-mosque.jpg"
         ]);
         Vertice::create([
+            "id" => "8",
             "name" => "Mangrove National Park",
             "x" => "514",
             "y" => "467",
@@ -71,6 +78,7 @@ class DbSeeder extends Seeder
             "image_path" => "mangrove-national-park.jpg"
         ]);
         Vertice::create([
+            "id" => "9",
             "name" => "Al Ghaf Park",
             "x" => "491",
             "y" => "534",
@@ -78,6 +86,7 @@ class DbSeeder extends Seeder
             "image_path" => "al-ghaf-park.jpg"
         ]);
         Vertice::create([
+            "id" => "10",
             "name" => "Umm Al Emarat Park",
             "x" => "399",
             "y" => "477",
@@ -85,6 +94,7 @@ class DbSeeder extends Seeder
             "image_path" => "umm-al-emarat-park.jpg"
         ]);
         Vertice::create([
+            "id" => "11",
             "name" => "Electra Park",
             "x" => "386",
             "y" => "334",
@@ -92,6 +102,7 @@ class DbSeeder extends Seeder
             "image_path" => "electra-park.jpg"
         ]);
         Vertice::create([
+            "id" => "12",
             "name" => "Qasr Al Hosn",
             "x" => "318",
             "y" => "381",
@@ -99,6 +110,7 @@ class DbSeeder extends Seeder
             "image_path" => "qasr-al-hosn.jpg"
         ]);
         Vertice::create([
+            "id" => "13",
             "name" => "Emirates Palace",
             "x" => "202",
             "y" => "449",

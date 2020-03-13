@@ -10,7 +10,7 @@ class Vertice extends Model
 
     public $label = [];
 
-    protected $fillable = ['name', 'x', 'y', 'description', 'image_path'];
+    protected $fillable = ['id', 'name', 'x', 'y', 'description', 'image_path'];
 
     protected $appends = ['label'];
 

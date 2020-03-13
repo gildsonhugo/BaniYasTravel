@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db37bca6-4e41-4dcf-a0d7-d13b26d37c36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Vertice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Vertice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DbSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DbSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +161,7 @@
       <updated>1584025095160</updated>
       <workItem from="1584025110026" duration="29135000" />
       <workItem from="1584116422594" duration="9314000" />
-      <workItem from="1584128460010" duration="1335000" />
+      <workItem from="1584128460010" duration="1675000" />
     </task>
     <servers />
   </component>
@@ -187,18 +189,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
-          <line>51</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
-          <line>65</line>
+          <line>71</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
-          <line>132</line>
+          <line>144</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/seeds/DbSeeder.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
