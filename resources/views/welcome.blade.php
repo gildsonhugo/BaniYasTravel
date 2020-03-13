@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bani Yas Travel</title>
-    <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('style.css')}}">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
@@ -50,7 +50,7 @@
         </main>
     </div>
 </div>
-<script src="{{asset('vue.js')}}"></script>
-<script src="{{asset('script.js')}}"></script>
+<script src="{{secure_asset('vue.js')}}"></script>
+<script src="{{secure_asset('script.js')}}"></script>
 </body>
 </html>
