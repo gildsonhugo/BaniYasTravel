@@ -8,6 +8,8 @@ class Aresta extends Model
 {
     public $timestamps = false;
 
+    protected $fillable = ['starts', 'ends', 'distance'];
+
     public function start(){
         return $this->hasOne(Vertice::class, 'id', 'starts');
     }
