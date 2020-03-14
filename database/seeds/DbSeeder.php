@@ -207,5 +207,99 @@ class DbSeeder extends Seeder
             "ends" => "4",
             "distance" => "1"
         ]);
+
+        //VOLTAS
+
+        Aresta::create([
+            "ends" => "2",
+            "starts" => "3",
+            "distance" => "9"
+        ]);
+        Aresta::create([
+            "ends" => "3",
+            "starts" => "5",
+            "distance" => "2"
+        ]);
+        Aresta::create([
+            "ends" => "5",
+            "starts" => "6",
+            "distance" => "6"
+        ]);
+        Aresta::create([
+            "ends" => "6",
+            "starts" => "7",
+            "distance" => "5"
+        ]);
+        Aresta::create([
+            "ends" => "7",
+            "starts" => "9",
+            "distance" => "3"
+        ]);
+        Aresta::create([
+            "ends" => "9",
+            "starts" => "10",
+            "distance" => "2"
+        ]);
+        Aresta::create([
+            "ends" => "10",
+            "starts" => "11",
+            "distance" => "9"
+        ]);
+        Aresta::create([
+            "ends" => "11",
+            "starts" => "2",
+            "distance" => "7"
+        ]);
+        Aresta::create([
+            "ends" => "7",
+            "starts" => "8",
+            "distance" => "8"
+        ]);
+        Aresta::create([
+            "ends" => "8",
+            "starts" => "10",
+            "distance" => "5"
+        ]);
+        Aresta::create([
+            "ends" => "10",
+            "starts" => "12",
+            "distance" => "2"
+        ]);
+        Aresta::create([
+            "ends" => "11",
+            "starts" => "12",
+            "distance" => "8"
+        ]);
+        Aresta::create([
+            "ends" => "12",
+            "starts" => "13",
+            "distance" => "6"
+        ]);
+        Aresta::create([
+            "ends" => "13",
+            "starts" => "9",
+            "distance" => "4"
+        ]);
+        Aresta::create([
+            "ends" => "1",
+            "starts" => "2",
+            "distance" => "8"
+        ]);
+        Aresta::create([
+            "ends" => "3",
+            "starts" => "4",
+            "distance" => "4"
+        ]);
+        Aresta::create([
+            "ends" => "4",
+            "starts" => "5",
+            "distance" => "3"
+        ]);
+        Aresta::create([
+            "ends" => "6",
+            "starts" => "4",
+            "distance" => "1"
+        ]);
+
     }
 }

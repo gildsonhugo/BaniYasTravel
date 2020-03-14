@@ -21,11 +21,13 @@ class GrafoController extends Controller
     public function searchRoute($from, $to){
         $grafo = new Grafo();
 
-        $grafo->startRoute($from, $to);
+        $route = $grafo->getRoute($from, $to);
 
-        $items = $grafo->getRouteList($from, $to);
+        return $route;
 
-        return $items;
+//        $items = $grafo->getRouteList($from, $to);
+
+//        return $items;
 
     }
 

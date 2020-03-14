@@ -41,7 +41,7 @@
                 </div>
                 <svg id="canvasArestas" width="1280" height="800">
                     <line v-for="aresta in arestas" class="line" :x1="aresta.start.x + 4" :x2="aresta.end.x + 4" :y1="aresta.start.y + 4" :y2="aresta.end.y + 4"></line>
-                    <line v-for="aresta in arestasResult" class="line" :x1="aresta.start.x + 4" :x2="aresta.end.x + 4" :y1="aresta.start.y + 4" :y2="aresta.end.y + 4"></line>
+                    <line v-for="aresta in arestasResult" class="line line-normal" :x1="aresta.start.x + 4" :x2="aresta.end.x + 4" :y1="aresta.start.y + 4" :y2="aresta.end.y + 4"></line>
                     <text v-for="aresta in arestas" :transform="'rotate('+( Math.atan2(( aresta.end.y - aresta.start.y ), ( aresta.end.x - aresta.start.x )) * 180 / Math.PI )+','+ ((aresta.start.x+(aresta.end.x - aresta.start.x)/2) + 5) +', '+((aresta.start.y+(aresta.end.y - aresta.start.y)/2)- 0.5 ) +')'" :x="aresta.start.x+((aresta.end.x - aresta.start.x)/2)-2" :y="aresta.start.y+((aresta.end.y - aresta.start.y)/2)-5" font-family="Verdana" font-size="15">
                         @{{ aresta.distance }}m
                     </text>

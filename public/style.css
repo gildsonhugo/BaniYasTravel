@@ -202,7 +202,7 @@ body {
 }
 
 .opacity{
-    color: rgba(0,0,0, 0.3);
+    color: rgba(0,0,0, 0.4);
 }
 
 .no-break{
@@ -210,7 +210,11 @@ body {
 }
 
 .line{
-    stroke:rgba(0,0,0, 0.5);
+    stroke:rgba(0,0,0, 0.3);
     stroke-width: 3;
+}
+
+.line-normal{
+    stroke:rgba(0,0,255, 1);
 }
 
